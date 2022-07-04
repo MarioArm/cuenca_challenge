@@ -1,7 +1,6 @@
-import solutions_db
-import cuenca_logging
+from src.eight_queen import solutions_db, cuenca_logging
 import logging
-from models import Solution
+from src.eight_queen.models import Solution
 from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)

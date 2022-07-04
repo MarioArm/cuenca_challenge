@@ -15,6 +15,8 @@ setup(
     packages=['src'],
     install_requires=[
         'pytest>=7.1.2',
-        'setuptools>=57.0.0'
+        'setuptools>=57.0.0',
+        'pg8000>=1.29.1',
+        'SQLAlchemy>=1.4.39'
     ],
 )

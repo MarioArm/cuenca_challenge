@@ -1,6 +1,6 @@
 import uuid
 
-import solutions_db
+from src.eight_queen import solutions_db
 
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, DATETIME
